@@ -1,4 +1,4 @@
 # trade-simulator
 
 run
-```python exemple.py ```
+```python example.py ```
