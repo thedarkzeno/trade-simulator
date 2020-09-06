@@ -35,7 +35,7 @@ class Env():
     self.trader.updateNetWorth(self.data[self.index])
     
     return u_state, done
-      #return new state and reward+actions (if*)
+    
   def getState(self):
     return self.data[self.index]
     
@@ -44,7 +44,7 @@ class Env():
     self.trader=Instance(initial_money=self.initial_money, initial_coin=self.initial_coin, fee=self.fee)
     self.previousNetWorth=self.trader.netWorth
     self.actions=[]
-    # Reset the state of the environment to an initial state
+    # Reset the state of the environment to initial state
     
   def render(self):
     # Render the environment to the screen
